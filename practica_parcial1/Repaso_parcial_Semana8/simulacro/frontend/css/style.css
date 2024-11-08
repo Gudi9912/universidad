@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-primario: #2196f3; 
+    --azul-secundario: #0067e6; 
+    --azul-pastel: #8e38c6; 
+    --azul-electrico: #e40488; 
+    --gris-claro: #f7f7f7;
+  }
+
+
+body {
+    font-family: "Raleway", sans-serif;
+  }
+
+
+.category-text {
+    background-color: var(--azul-primario);
+    color: var(--bs-white);
+}
+
+.category-id {
+    background-color: var(--gris-claro);
+}
+
+.navbar-title {
+    color: var(--bs-white);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo-in-nav {
+    color: var(--azul-primario);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+a {
+    color: var(--bs-white);
+}

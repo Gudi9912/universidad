@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+}
+#centro {
+    text-align: center;
+}
+td {
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#customform {
+    background-color: lightgreen;
+}
+#customtd {
+    background-color: blue;
+    color: aliceblue;
+}
+.fila {
+    background-color: aquamarine;
+    text-align: center;
+}
+#customtable {
+    background-color: yellowgreen;
+}
+td:hover{
+    background-color: chartreuse;
+    cursor:zoom-in;
+}
+img {
+    align-items: center;
+}

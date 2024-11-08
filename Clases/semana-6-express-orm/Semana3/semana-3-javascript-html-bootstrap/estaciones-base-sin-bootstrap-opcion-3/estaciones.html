@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estaciones</title>
+    <link rel="stylesheet" href="./estaciones.css" />
+</head>
+<body>
+    <!-- <h3 >Lista de Estaciones</h3> -->
+    <h3 >Lista de Estaciones</h3>
+    <hr width="90%" align="left">
+    <form action="servidor" method="get">
+        <table width="70%">
+            <tr>
+                <td style="background-color: red;color: aquamarine;">
+                    <label for="texto">Texto:</label><br>
+                    <input type="text" name="texto" id="texto" placeholder="Texto a filtrar">
+                </td>
+                <td>
+                    <label for="barrio">Barrio:</label><br>
+                    <select name="barrio" id="barrio">
+                        <option value="1">Barrio 1</option>
+                        <option value="2">Barrio 2</option>
+                        <option value="3">Barrio 3</option>
+                        <option value="4">Barrio 4</option>
+                        <option value="5">Barrio 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="inactivos" id="inactivos"> Incluir Inactivos
+                </td>
+                <td align="right">
+                    <input type="button" value="Filtrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr width="90%" align="left">
+    <table border="1px" width="90%">
+        <thead>
+        <tr>
+            <th>Nro</th>
+            <th>Nombre </th>
+            <th>DirecciÃ³n </th>
+            <th>Barrio</th>
+            <th>Activo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="fila">
+            <td> 1</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        <tr class="fila">
+            <td>2</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        <tr class="fila">
+            <td>3</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estaciones</title>
+    <link rel="stylesheet" href="./estaciones-css.css"/>
+</head>
+<body>
+    <h3 id="centro">Lista de Estaciones</h3>
+    <hr width="90%" align="left">
+    <form action="servidor" method="get" id="customform">
+        <table width="70%">
+            <tr>
+                <td>
+                    <label for="texto">Texto:</label><br>
+                    <input type="text" name="texto" id="texto" placeholder="Texto a filtrar">
+                </td>
+                <td>
+                    <label for="barrio">Barrio:</label><br>
+                    <select name="barrio" id="barrio">
+                        <option value="1">Barrio 1</option>
+                        <option value="2">Barrio 2</option>
+                        <option value="3">Barrio 3</option>
+                        <option value="4">Barrio 4</option>
+                        <option value="5">Barrio 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="inactivos" id="inactivos"> Incluir Inactivos
+                </td>
+                <td align="right">
+                    <input type="button" value="Filtrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr width="90%" align="left">
+    <table id="customtable" border="1px" width="90%">
+        <thead>
+        <tr>
+            <th>Nro</th>
+            <th>Nombre </th>
+            <th>DirecciÃ³n </th>
+            <th>Barrio</th>
+            <th>Activo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> 1</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        </tbody>
+    </table>
+    <img id="centro" src="https://phantom-marca-mx.unidadeditorial.es/163ea353a35a746c257346d3b9e557b7/resize/660/f/webp/mx/assets/multimedia/imagenes/2024/03/07/17098519599619.jpg " alt="https://s.yimg.com/ny/api/res/1.2/mWoT4KEVEBxTC5BPFGqVgw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0NDA7Y2Y9d2VicA--/https://media.zenfs.com/es/tomatazos_56/06f28f329b2fe53b2f4c31f901eb367b ">
+</body>
+</html>

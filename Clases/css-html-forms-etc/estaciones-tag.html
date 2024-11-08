@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estaciones</title>
+    <style>
+        body {
+            background-color: chocolate;
+        }
+        td {
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #customtd {
+            background-color: blue;
+            color: aliceblue;
+        }
+        .fila {
+            background-color: aquamarine;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3 style= "font-family: fantasy;">Lista de Estaciones</h3>
+    <hr width="90%" align="left">
+    <form action="servidor" method="get">
+        <table width="70%">
+            <tr class="fila">
+                <td id="customtd">
+                    <label for="texto">Texto:</label><br>
+                    <input type="text" name="texto" id="texto" placeholder="Texto a filtrar">
+                </td>
+                <td>
+                    <label for="barrio">Barrio:</label><br>
+                    <select name="barrio" id="barrio">
+                        <option value="1">Barrio 1</option>
+                        <option value="2">Barrio 2</option>
+                        <option value="3">Barrio 3</option>
+                        <option value="4">Barrio 4</option>
+                        <option value="5">Barrio 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="fila">
+                <td>
+                    <input type="checkbox" name="inactivos" id="inactivos"> Incluir Inactivos
+                </td>
+                <td align="right">
+                    <input type="button" value="Filtrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr width="90%" align="left">
+    <table border="1px" width="90%">
+        <thead>
+        <tr>
+            <th>Nro</th>
+            <th>Nombre </th>
+            <th>DirecciÃ³n </th>
+            <th>Barrio</th>
+            <th>Activo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> 1</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+            <td>Contenido 4</td>
+            <td>Contenido 5</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

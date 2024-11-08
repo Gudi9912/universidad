@@ -1,0 +1,12 @@
+La carpeta .env no se sube a git, el de esta clase contenia la informacion del puerto:
+    PORT = 3000
+
+Estructura para proyectos:
+    services = codigo y funciones
+    models = conexiones con base de datos
+
+npm install instala librerias cuando encuentra un package.json
+
+Postman:
+    localhost:3000/api/peliculas (localhost:puerto+ruta de donde queremos acceder)
+    Body/Raw/json + info que se quiere enviar (con la misma estructura)
